@@ -1,0 +1,83 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 0 5%;
+}
+
+.ClickableLink {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.ExpectationBox {
+    display: flex;
+    flex-wrap: nowrap;
+    /* allows wrapping to next line if needed */
+    justify-content: center;
+    /* centers all DisplayElements horizontally */
+    gap: clamp(1rem, 5vw, 2rem);
+    /* spacing between items */
+    padding: 1rem 0;
+}
+
+.DisplayElement {
+    display: flex;
+    flex-direction: column;
+    /* stack icon and text vertically */
+    align-items: center;
+    /* center horizontally */
+    justify-content: center;
+    /* center vertically if you want fixed height */
+    gap: 0.5rem;
+    /* optional spacing between icon and text */
+    height: 150px;
+    /* optional: define height if needed */
+    width: 150px;
+    /* optional */
+    border: 1px solid #ccc;
+    /* optional: just to see the box */
+}
+
+.DisplayElementIcon {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 2rem;
+    border: 1px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* center vertically */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    /* or whatever fits your theme */
+    font-weight: bold;
+}
