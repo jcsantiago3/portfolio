@@ -44,6 +44,11 @@ section {
     width: 100%;
     height: 95vh;
     align-items: flex-start;
+    background-image: url(images/pexels-seven11nash-380769.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #value-proposition-container {
@@ -108,11 +113,15 @@ section {
     width: inherit;
     height: 225px;
     overflow: hidden;
+    background-image: url(images/10-3D-Video-Games-That-Would-Have-Been-Better-In-2D.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .released-works-card-descriptionarea {
     display: flex;
     flex-direction: column;
     width: inherit;
-    padding: 2%;
+    padding: 3%;
 }
