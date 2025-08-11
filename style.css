@@ -103,7 +103,7 @@ section {
     display: flex;
     flex-direction: column;
     width: 30vw;
-    height: auto;
+    height: 30vh;
     border-radius: 15px;
     background-color: red;
     overflow: hidden;
@@ -124,4 +124,39 @@ section {
     flex-direction: column;
     width: inherit;
     padding: 3%;
+}
+
+.work-cards-container {
+    display: flex;
+    width: inherit;
+    gap: 1%;
+}
+
+.released-games-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    min-height: 40vh;
+    padding: 1%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+}
+
+.released-games-card-icon-container {
+    display: flex;
+    width: inherit;
+    height: 15vw;
+}
+
+.released-games-card-icon {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 10%;
+    margin: 0 auto;
+    background-image: url(images/Onazoo-Treasures-Puzzle-Blast);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
